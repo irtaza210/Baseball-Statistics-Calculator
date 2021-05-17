@@ -50,9 +50,6 @@ def addhits(prevhits, newhits):
 def protectleadingzeros(num):
     protectedval = ('%03.3f' % num)
     return protectedval
-#filename = "/Users/irtaza/Documents/cardinals-1940.txt"
-#f = open(filename, "r")
-#this code was taken from https://classes.engineering.wustl.edu/cse330/index.php?title=Python
 if len(sys.argv) < 2:
     sys.exit(f"Usage: {sys.argv[0]} filename")
 filename = sys.argv[1]
